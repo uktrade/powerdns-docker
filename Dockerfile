@@ -1,7 +1,7 @@
 FROM ubuntu:bionic
 
 ENV BUILD_DEPS curl autoconf automake ragel bison flex g++ libboost-all-dev libtool make pkg-config default-libmysqlclient-dev libssl-dev virtualenv libluajit-5.1-dev libsodium-dev default-libmysqlclient-dev postgresql-server-dev-10 libmaxminddb-dev libmaxminddb0 libgeoip1 libgeoip-dev libyaml-cpp-dev libsqlite3-dev
-ENV RUNTIME_DEPS python3 python3-pip mysql-client libmysqlclient20 postgresql libyaml-cpp-dev libgeoip1 libluajit-5.1-2
+ENV RUNTIME_DEPS python3 python3-pip mysql-client libmysqlclient20 postgresql libyaml-cpp-dev libgeoip1 libluajit-5.1-2 libboost-program-options1.65-dev
 
 ENV PowerDNS_VERSION 4.0.9
 ENV PowerDNS_VERSION_SHA1 4ef591fa9f3cec2b9ec051fd2d8793a331c71304
